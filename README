@@ -1,0 +1,22 @@
+In this project, I aimed to predict the outcome of cats and dogs in animal shelters. <br />
+This classification problem was important to help shelters optimize resources and improve animal welfare, by identifying factors contributing to different outcomes 
+(e.g., adoption, transfer, euthanasia, etc.).
+
+I collected data from several animal shelters, which included variables such as the animal's type (cat or dog),
+age, breed, color, health condition, and the duration of their stay at the shelter.
+
+I first conducted a comprehensive exploratory data analysis (EDA) to understand the distribution of outcomes and the relationship between the different variables. 
+This helped me identify key factors and patterns that could influence an animal's outcome.
+
+The data underwent preprocessing which included handling missing values, dealing with outliers, and encoding categorical variables. 
+It was then split into training and testing sets.
+
+For the classification task, I experimented with various machine learning models, including logistic regression, decision trees, random forest, 
+and multi-layer perceptron (MLP). Each model was trained using the training set and their performances were compared based on their accuracy on the testing set.
+
+Hyperparameter tuning was carried out using techniques like grid search and cross-validation to optimize the models. 
+The best performing model was selected based on its ability to generalize well to unseen data, its interpretability, and computational efficiency.
+
+Our final model was able to classify the outcomes of animals in shelters with a high degree of accuracy. 
+This model can now be used by shelters to predict the outcome for new animals, allowing them to intervene proactively when necessary, 
+improving the chances of positive outcomes and better resource allocation.
