@@ -1,6 +1,5 @@
 In this project, I aimed to predict the outcome of cats and dogs in animal shelters.
-This classification problem was important to help shelters optimize resources and improve animal welfare, by identifying factors contributing to different outcomes 
-(e.g., adoption, transfer, euthanasia, etc.).
+This classification problem was important to help shelters optimize resources and improve animal welfare, by identifying factors contributing to different outcomes (e.g., adoption, transfer, euthanasia, etc.).
 
 I collected data from several animal shelters, which included variables such as the animal's type (cat or dog),
 age, breed, color, health condition, and the duration of their stay at the shelter.
