@@ -1,13 +1,17 @@
-In the pursuit of this project, the objective was to predict the outcomes of cats and dogs within animal shelters. 🐾 This classification task bore significance in facilitating shelters' resource optimization and enhancing animal welfare by discerning contributing factors to distinct outcomes, such as adoption, transfer, euthanasia, etc.
+# Shelter Animals Outcome Prediction 🐶
 
-Data acquisition involved meticulous collection from diverse animal shelters, encompassing variables including animal type (cat or dog), age, breed, color, health condition, and duration of shelter stay. 📊
+🐕🐈 A step-by-step guide for predict outcomes of shelter animals. 🔍
 
-An initial phase of comprehensive Exploratory Data Analysis (EDA) was conducted to discern outcome distributions and inter-variable relationships. This process aimed to identify pivotal factors and patterns influencing the eventual outcome for an animal. 🔍
+    Author: Clément Cipriani
+    Date: July, 2023
+    Dataset: https://www.kaggle.com/competitions/shelter-animal-outcomes/data
 
-Following EDA, data underwent preprocessing, addressing missing values, handling outliers, and encoding categorical variables, culminating in its partition into distinct training and testing sets.
+👋 Introduction
 
-For the classification task, an array of machine learning models—logistic regression, decision trees, random forest, and multi-layer perceptron (MLP)—were employed and rigorously evaluated. Model training utilized the training set, with subsequent performance assessments conducted based on accuracy metrics derived from the testing set. 🌐
+In this project, our goal was to predict outcomes for cats and dogs in shelters, crucial for optimizing resources and enhancing animal welfare. We meticulously collected diverse data, including type, age, breed, color, health, and shelter duration. After thorough Exploratory Data Analysis (EDA) to identify pivotal factors, we preprocessed the data, split it into training and testing sets, and employed various machine learning models for classification, rigorously evaluating their performance. Hyperparameter tuning led to a highly accurate final model, now available to shelters for proactive intervention and improved resource allocation, fostering positive outcomes for shelter animals. 🏆
 
-Hyperparameter tuning, executed through methodologies like grid search and cross-validation, aimed to optimize model parameters. Selection of the optimal model hinged on considerations of its capacity for generalization to unseen data, interpretability, and computational efficiency. ⚙️
+# Data Analysis
 
-The final model exhibited a pronounced ability to classify animal outcomes within shelters with a high degree of accuracy. 🏆 This model, now at the disposal of shelters, offers the capacity to predict outcomes for new animals, facilitating proactive intervention when necessary, thereby enhancing the likelihood of positive outcomes and fostering improved resource allocation. 🐶🐱
+We will first take a look at the data and identify the animals in question.
+
+![Analysis]('images/Analysis.png')
